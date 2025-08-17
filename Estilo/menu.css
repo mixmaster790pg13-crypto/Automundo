@@ -1,0 +1,26 @@
+@charset "utf-8";
+#menu{
+    width:1150px;
+    height:200px;
+    background-color:#ffffff;
+}
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    float:left;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.menu li {
+    border-right: 2px solid rgba(113, 60, 0, 0.973);
+    display: inline-block;
+}
+.menu li a:hover {
+    background-color:rgba(255, 182, 118, 0.973) ;
+}
+.menu li a{
+display: block;
+padding: 25px 56px;
+color: #763d00;
+text-decoration: none;
+}
